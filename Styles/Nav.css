@@ -74,6 +74,14 @@ nav {
 }
 
 @media (max-width: 800px) {
+  body {
+  font-family: Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  max-height: 100vh;
+  overflow-x: hidden;
+  }
   nav {
     position: absolute;
     width: 100%;
