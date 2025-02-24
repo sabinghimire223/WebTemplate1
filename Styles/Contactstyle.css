@@ -1,0 +1,164 @@
+:root {
+  --linear: linear-gradient(133deg, blue, rgb(245, 5, 205));
+  /* for any linear gradient used in this page:  */
+}
+
+.bg {
+  background: var(--linear);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+  padding-block: 3rem;
+  margin: 0%;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon {
+  border-radius: 1rem;
+  color: white;
+  font-size: larger;
+  padding: 1rem;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+p {
+  font-size: 0.9em;
+  text-align: center;
+  color: rgb(111, 111, 111);
+}
+.container {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 3em 20em;
+}
+.contactText {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.inputcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5em;
+}
+input,
+#message {
+  height: 4em;
+  width: 35rem;
+  border: 1px solid rgb(173, 171, 171);
+  border-radius: 5px;
+  padding: 1em;
+  font-size: 1em;
+}
+#btn {
+  padding: 10px 20px;
+  width: 35rem;
+  height: 2.4em;
+  background-color: rgb(97, 139, 246);
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#message {
+  height: 13rem;
+  font-size: 1.5em;
+}
+@media (max-width: 1000px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    background-color: rgb(244, 242, 242);
+    width: 90%;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; */
+    border-radius: 15px;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    background-color: rgb(244, 242, 242);
+    width: 90%;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; */
+    border-radius: 15px;
+  }
+}
+@media (max-width: 580px) {
+  .container {
+    background-color: rgb(244, 242, 242);
+    width: 90%;
+    padding: 4em 1em;
+    margin: 0 auto;
+  }
+
+  input,
+  #message,
+  #btn {
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  .contact {
+    gap: 20px;
+  }
+
+  #message {
+    height: 10rem;
+    font-size: 1.2em;
+  }
+
+  .inputcontainer {
+    width: 100%;
+    gap: 1em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  .icon {
+    font-size: medium;
+    padding: 0.8rem;
+  }
+}

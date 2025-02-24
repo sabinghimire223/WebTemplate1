@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  height: 5rem !important;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.footerBody {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.footerItems {
+  color: rgb(23, 113, 248);
+}
+@media (max-width: 580px) {
+  .footer {
+    display: flex;
+    height: 5rem !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .footerBody {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerItems {
+    color: rgb(23, 113, 248);
+  }
+}
