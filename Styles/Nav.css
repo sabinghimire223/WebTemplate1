@@ -30,6 +30,7 @@ li {
   color: rgb(0, 0, 0);
   font-weight: bold;
   padding: 5px;
+  transition: 0.7s ease-in-out;
   opacity: 1;
 }
 
@@ -51,6 +52,7 @@ nav {
   align-items: center;
   gap: 20px;
   padding-inline: 10rem;
+  /* background-color: aqua; */
 }
 .nav-branding {
   cursor: default;
@@ -72,23 +74,40 @@ nav {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+main {
+  height: 100vh;
+}
 
-@media (max-width: 800px) {
+@media (max-height: 1000px) {
+  header {
+    height: 4rem;
+    padding-bottom: 4rem;
+  }
+  nav {
+    padding-inline-start: 5rem;
+    height: 4rem;
+    font-size: 20px;
+    background-color: #fefefe;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-inline: 3rem;
+  }
+}
+@media (max-width: 768px) {
   body {
-  font-family: Arial, sans-serif;
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  max-height: 100vh;
-  overflow-x: hidden;
+    max-height: 100vh;
+    max-width: 100vw;
   }
   nav {
     position: absolute;
     width: 100%;
     height: 80px;
-    padding-inline-start: 0rem;
     padding-inline: 2rem;
-    background-color: transparent;
+    background-color: red;
   }
   .img {
     margin-left: 0px;
@@ -113,7 +132,7 @@ nav {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
     background-color: rgb(235, 234, 235);
   }
   .nav-item {
@@ -121,13 +140,14 @@ nav {
   }
   .nav-menu.active {
     left: 0;
+    transition: 0.3s ease-in-out;
   }
   main.active {
     transition: 0.45s ease-in-out;
     padding-top: 20rem;
   }
- main {
+  main {
     transition: 0.45s ease-in-out;
-    padding-top: 80px;
+    padding-top: 20px;
   }
 }
