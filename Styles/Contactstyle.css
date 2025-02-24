@@ -6,8 +6,7 @@
 .bg {
   background: var(--linear);
 }
-main 
-{
+main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,10 +15,10 @@ main
   padding-block: 3rem 3rem;
 }
 
- @media (max-width: 768px) {
-  main{
+@media (max-width: 768px) {
+  main {
     padding-block: 8rem 3rem;
-  } 
+  }
 }
 .icon-container {
   display: flex;
@@ -104,6 +103,7 @@ input,
   .container {
     background-color: rgb(244, 242, 242);
     width: 90%;
+    overflow-x: hidden;
     /* display: flex;
     align-items: center;
     flex-direction: column;
