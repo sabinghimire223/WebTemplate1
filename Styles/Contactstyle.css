@@ -6,14 +6,20 @@
 .bg {
   background: var(--linear);
 }
-main {
+main 
+{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 80%;
   width: 100%;
-  padding-block: 3rem;
-  margin: 0%;
+  padding-block: 3rem 3rem;
+}
+
+ @media (max-width: 768px) {
+  main{
+    padding-block: 8rem 3rem;
+  } 
 }
 .icon-container {
   display: flex;

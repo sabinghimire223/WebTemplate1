@@ -9,9 +9,9 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   max-height: 100vh;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
-.text{
+.text {
   font-size: 20px;
 }
 li {
@@ -75,12 +75,12 @@ nav {
 
 @media (max-width: 768px) {
   nav {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 80px;
     padding-inline-start: 0rem;
     padding-inline: 2rem;
-    /* background-color: #f20303; */
+    background-color: transparent;
   }
   .img {
     margin-left: 0px;
@@ -116,9 +116,10 @@ nav {
   }
   main.active {
     transition: 0.45s ease-in-out;
-    padding-top: 17rem;
+    padding-top: 20rem;
   }
-  main {
+ main {
     transition: 0.45s ease-in-out;
+    padding-top: 80px;
   }
 }
