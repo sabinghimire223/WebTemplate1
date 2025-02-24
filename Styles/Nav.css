@@ -29,7 +29,6 @@ li {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  padding: 5px;
   transition: 0.7s ease-in-out;
   opacity: 1;
 }
