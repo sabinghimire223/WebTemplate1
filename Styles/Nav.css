@@ -29,7 +29,10 @@ li {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: bold;
+<<<<<<< HEAD
   padding: 5px;
+=======
+>>>>>>> 148e497a869edd798d67248941771ea45b3872e3
   transition: 0.7s ease-in-out;
   opacity: 1;
 }
@@ -107,7 +110,10 @@ main {
     width: 100%;
     height: 80px;
     padding-inline: 2rem;
+<<<<<<< HEAD
     /* background-color: red; */
+=======
+>>>>>>> 148e497a869edd798d67248941771ea45b3872e3
   }
   .img {
     margin-left: 0px;
