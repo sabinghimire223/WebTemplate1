@@ -1,4 +1,94 @@
-svg {
-  height: 5px;
-  width: 50px;
+.bg {
+  background-image: linear-gradient(135deg, blue, rgb(219, 31, 133));
+}
+.text_only {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  font-size: 0.5em;
+  display: flex;
+  gap: 3px;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 15.5rem;
+  height: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0em;
+  margin-bottom: 3em;
+}
+.middot {
+  font-size: 12px;
+}
+h3 {
+  font-size: 1.6em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  color: rgb(112, 112, 112);
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  width: 25rem;
+}
+.heroLanderH1 {
+  background: rgb(79, 77, 235);
+  background: linear-gradient(
+    152deg,
+    rgba(79, 77, 235, 1) 35%,
+    rgba(219, 31, 133) 80%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_heroLander {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3em;
+}
+.button_heroLander {
+  gap: 2em;
+  display: flex;
+}
+.btn {
+  font-weight: bold;
+  padding: 1.4em 3.5em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn_a {
+  text-decoration: none;
+}
+.resume {
+  color: #ffff;
+}
+.resume {
+  background-color: rgb(34, 83, 230);
+  border: none;
+}
+.resume:hover {
+  background-color: rgb(18, 73, 202);
+}
+.projects {
+  background-color: #fff;
+  border: 1px solid black;
+  color: #000;
+
+  transition: 0.3s;
+
+}
+.projects:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s;
+  border: 1px solid black;
 }
