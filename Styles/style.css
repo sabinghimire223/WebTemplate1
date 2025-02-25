@@ -68,11 +68,10 @@ h1 {
 .btn_a {
   text-decoration: none;
 }
-.resume {
-  color: #ffff;
-}
+
 .resume {
   background-color: rgb(34, 83, 230);
+  color: #ffff;
   border: none;
 }
 .resume:hover {
@@ -82,7 +81,6 @@ h1 {
   background-color: #fff;
   border: 1px solid black;
   color: #000;
-
   transition: 0.3s;
 
 }
