@@ -146,11 +146,9 @@ main {
   main.active {
     transition: 0.45s ease-in-out;
     padding-top: 20rem;
-    height: calc(100vh - 80px);
   }
   main {
     transition: 0.45s ease-in-out;
     padding-top: 20px;
-    height: calc(100vh - 80px);
   }
 }
