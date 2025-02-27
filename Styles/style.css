@@ -1,13 +1,7 @@
 .bg {
   background-image: linear-gradient(135deg, blue, rgb(219, 31, 133));
 }
-
-main {
-  background-color: aqua;
-  height: 100vh;
-}
 /* HEROLANDER */
-
 .heroLander {
   height: 100vh;
   display: flex;
