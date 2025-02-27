@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   min-height: 5rem;
+  margin-top:auto;
   align-items: center;
   justify-content: center;
   margin-top: auto !important;
