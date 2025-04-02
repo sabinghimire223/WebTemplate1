@@ -74,18 +74,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 30vh; */
+ width: 100%;
 }
 .contact--div {
-  padding: 6rem 5rem;
+  padding: 6rem 0rem 5rem 0rem;
+  margin: 0%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 80%;
 }
 
 .contact--div h3 {
   font-size: 3.8rem;
+  text-align: center;
 }
 .btn {
   text-decoration: none;
