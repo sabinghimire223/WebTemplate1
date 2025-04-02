@@ -1,5 +1,9 @@
+:root {
+  --grad: linear-gradient(125deg, blue, rgb(219, 31, 133));
+}
+
 .bg {
-  background-image: linear-gradient(135deg, blue, rgb(219, 31, 133));
+  background-image: var(--grad);
 }
 /* HEROLANDER */
 .heroLander {
@@ -33,11 +37,26 @@ h3 {
 }
 
 .heroLanderH1 {
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(135deg, blue, rgb(219, 31, 133));
-  background-clip: text;
   width: 35rem;
   font-size: 4rem;
+}
+.heroLanderH1 span:nth-child(1) {
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    112deg,
+    rgba(41, 47, 236, 1) 0%,
+    rgba(141, 38, 178, 1) 81%
+  );
+}
+.heroLanderH1 span:nth-child(2) {
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    112deg,
+    rgba(154, 37, 171, 1) 24%,
+    rgba(215, 31, 134, 1) 100%
+  );
 }
 
 .text_heroLander {
