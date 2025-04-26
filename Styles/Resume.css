@@ -1,0 +1,301 @@
+:root {
+  --gradient: linear-gradient(
+    112deg,
+    rgba(53, 46, 229, 1) 0%,
+    rgba(122, 39, 189, 1) 51%,
+    rgba(201, 32, 143, 1) 100%
+  );
+  --gradient180: linear-gradient(
+    180deg,
+    rgba(53, 46, 229, 1) 0%,
+    rgba(122, 39, 189, 1) 51%,
+    rgba(201, 32, 143, 1) 100%
+  );
+}
+
+.resume {
+  background-color: #f5f5f5;
+  padding: 3rem 3rem 10rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+.resume_body h1 {
+  text-align: center;
+  font-size: clamp(2.2em, 5vw, 3.2em);
+  width: fit-content;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: var(--gradient);
+  padding-bottom: 1em;
+}
+
+.resume-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  /* background: yellow; */
+}
+
+.resume-top h2 {
+  font-size: 1.8rem;
+
+  color: #2600ff;
+  font-weight: bold;
+}
+.btn {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: none;
+  padding: 1.5em 1.9em;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(2, 61, 239);
+  color: #ffff;
+  font-weight: lighter;
+}
+.btn:hover {
+  background-color: rgb(11, 59, 203);
+  color: #ffff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 3rem;
+}
+
+.card_data {
+  background: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.job_date {
+  font-size: 1rem;
+  color: #2600ff;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.job_post {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+
+  margin-bottom: 0.5rem;
+}
+.job_company,
+.job_address {
+  color: #605f5f;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 0.5rem;
+}
+
+.card_description {
+  font-size: 1rem;
+  color: #3b3a3a;
+  line-height: 1.5;
+  width: 75%;
+  font-weight: lighter;
+  margin-bottom: 0.5rem;
+}
+.h2 {
+  font-size: 1.8rem;
+  color: #ff00aa;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.education_date {
+  font-size: 1rem;
+  color: #ff00aa;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.education_company {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.education_address {
+  color: #a5a2a2;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 0.5rem;
+}
+.education_degree,
+.education_post {
+  color: #a5a2a2;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 0.5rem;
+}
+
+.skills {
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+}
+
+.skill-title {
+  display: flex;
+  margin-bottom: 2em;
+}
+.skills_container {
+  width: 80%;
+}
+
+.gradient {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: var(--gradient);
+  padding: 1.2rem 0.2rem;
+  height: fit-content;
+  color: white;
+  display: flex;
+  justify-self: start;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 0.8em;
+}
+
+.gradient-text {
+  background: var(--gradient180);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.language {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .card_data {
+  border-radius: 20px;
+  margin: 2.5rem 0em;
+}
+.skill-data {
+  font-size: 1.2rem;
+  color: #5a5858;
+  font-weight: lighter;
+  text-align: left;
+}
+
+@media (min-width: 425px) {
+  .resume_body {
+    width: 90%;
+  }
+  .card_data {
+    width: 90%;
+  }
+  .card_description {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+  .skills_container {
+    width: 95%;
+  }
+  .gradient {
+    padding: 0.5em 0.5em;
+  }
+}
+
+@media (min-width: 633px) {
+  .resume_body {
+    width: 70%;
+  }
+  .card_data {
+    width: 80%;
+  }
+  .card_description {
+    width: 80%;
+    font-size: 1.2rem;
+  }
+  .skills_container {
+    width: 90%;
+  }
+}
+@media (min-width: 845px) {
+  .resume_body {
+    width: 40rem;
+  }
+  .card_data {
+    width: 95%;
+  }
+  .card_description {
+    width: 95%;
+    font-size: 1.2rem;
+  }
+  .skills_container {
+    width: 95%;
+  }
+  .gradient {
+    padding: 0.5em 0.5em;
+  }
+  .skill-data {
+    width: 100%;
+  }
+  #skill-data {
+    width: 12em;
+    margin: 0.5em;
+    font-size: 1rem;
+  }
+  .skills-contents {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding-block: 1.5em;
+  }
+  .skill-title {
+    display: flex;
+    margin-bottom: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card_data {
+    width: 30%;
+  }
+  .card_description {
+    width: 65%;
+    font-size: 1rem;
+  }
+}

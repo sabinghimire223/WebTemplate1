@@ -1,11 +1,12 @@
 .footer {
   display: flex;
   min-height: 5rem;
-  margin-top:auto;
+  margin-top: auto;
   align-items: center;
   justify-content: center;
   margin-top: auto !important;
   width: 100%;
+  background: #fff;
 }
 .footerBody {
   width: 80%;
