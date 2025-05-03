@@ -90,17 +90,27 @@ a {
   border-radius: 10px;
   font-weight: bold;
   font-size: 1rem;
+  cursor: pointer;
 }
 .resume {
   background: blue;
   border: none;
   color: white;
 }
+
+.resume:hover {
+  background: rgb(0, 0, 209);
+}
 .projects {
   background: rgb(255, 255, 255);
   margin-top: 1em;
   border: 1px solid rgb(0, 0, 0);
   color: rgb(0, 0, 0);
+}
+
+.projects:hover {
+  background: black;
+  color: white;
 }
 
 .image-holder {
